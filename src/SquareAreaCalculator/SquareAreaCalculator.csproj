@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    
+    <!-- NuGet Package Properties -->
+    <PackageId>SquareAreaCalculator</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Title>Square Area Calculator</Title>
+    <Authors>Your Name</Authors>
+    <Description>A simple and efficient library for calculating the area of squares with validation and error handling.</Description>
+    <PackageTags>math;geometry;square;area;calculator</PackageTags>
+    <PackageProjectUrl>https://github.com/yourusername/square-area-calculator</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/yourusername/square-area-calculator</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>Initial release with basic square area calculation functionality.</PackageReleaseNotes>
+    
+    <!-- Documentation -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

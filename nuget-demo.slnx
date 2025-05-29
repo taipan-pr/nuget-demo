@@ -1,1 +1,12 @@
-﻿<Solution />
+﻿<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+    <File Path="LICENSE" />
+    <File Path="global.json" />
+    <File Path="Directory.Build.props" />
+    <File Path="code-analysis.ruleset" />
+    <File Path=".gitignore" />
+  </Folder>
+  <Project Path="src\SquareAreaCalculator\SquareAreaCalculator.csproj" Type="C#" />
+  <Project Path="tests\SquareAreaCalculator.Tests\SquareAreaCalculator.Tests.csproj" Type="C#" />
+</Solution>
